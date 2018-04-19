@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+
+	<!-- Superslides CSS File -->
+	<link rel="stylesheet" type="text/css" href="css/superslides.css">
+
+	<!-- Bootstrap CSS File -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+	<!-- JQUERY FILE -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- fa fa FILE -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Styles CSS File -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<div id="slides">
+
+	  <div class="overlay"></div>
+
+	  <div class="slides-container">
+	    <img src="img/coding1.jpg" alt="">
+	    <img src="img/coding2.jpeg" alt="">
+	    <img src="img/coding3.jpeg" alt="">
+	  </div>
+
+	  <div class="titleMessage">
+	  	<div class="heading">
+	  		<p class="main">PRAMOD KALIDINDI</p>
+	  		<p class="sub"></p>
+	  	</div>
+	  </div>
+	  
+
+	  <nav class="slides-navigation">
+	    <a href="#" class="next"></a>
+	    <a href="#" class="prev"></a>
+	  </nav>
+
+	 <!--  <nav class="slides-navigation">
+	    <a href="#" class="nextGrey"></a>
+	    <a href="#" class="prevGrey"></a>
+	  </nav> -->
+
+	</div>
+
+
+<!-- This section is the Navbar section -->
+
+<nav id="navigation" class="navbar navbar-expand-lg">
+	  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contact</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#portfolio">Portfolio</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Disabled</a>
+	      </li>
+	    </ul>
+	  </div>
+</nav>
+
+<!-- This section is the about me section -->
+	<div id="about" class="section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-5">
+					<img class="profilePic" src="img/profile.jpg">
+				</div>
+
+				<div class="col-md-7">
+					<h4>My name is Pramod Kalidindi</h4>
+					<p>
+						I am a student from Arizona State Univerity currently enrolled in Master's in Software Engineering with a GPA of 3.97. I will be graduating in May 2018 and looking for full time positions
+					</p>
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+<!-- This section is the contact section -->
+	<div id="contact" class="contactSection section">
+
+			<div class="col-md-12 text-center">
+
+				<p class="subHeading">Like what you see?</p>
+				<h2>I'd love to hear from you!</h2>
+				<a href="mailto:pramod.kp72@gmail.com ?subject=Call me &body=dummy mail:" class="contactButton">GET IN TOUCH!</a>
+
+			</div>
+		</div>
+	</div>
+ 
+<!-- This section is the Portfolio section -->
+	<div id="portfolio" class="section">
+		<div class="container">
+			<!-- <div class="row"> -->
+
+				<div class="heading">
+					<h2>PORTFOLIO</h2>
+				</div>
+
+				<div class="filter">
+					<div id="filters">
+
+
+						<div class="row">
+
+							<div class="col">
+
+						<a href="#" data-filter="*" class="current">ALL</a>
+
+							</div>
+							<div class="col">
+						<a href="#" data-filter=".data">DATA SCIENCE</a>
+						</div>
+						<div class="col">
+						<a href="#" data-filter=".software">SOFTWARE ENGINEERING</a>
+						</div>
+
+						</div>
+
+					</div>
+					
+				</div>
+			<!-- </div> -->
+
+
+
+				<div class="itemsContainer">
+					
+					<div class="items">
+
+
+						<div class="software">
+
+					
+							<div class="itemSemantic">
+
+								<h2>Semantic Web Project</h2>
+
+								
+					      		<ul>
+
+								<li>Developed using Sparql, Python- Flask, Apache Fuseki, RDF, Scrapy
+								<li>Developed Auto guide, linking different government datasets, 	
+									creating Ontology using Protégé and querying RDF from Apache Fuseki using Sparql, scraped craigslist for the real-time data using Python and developing spiders using scrapy.
+
+								<li>You can view the application and description here.
+								</ul>
+					      
+
+								</div>
+
+								<div class="itemEcommerce">
+
+								<h2>E-commerce Website</h2>
+
+								
+					      		<ul>
+					      			
+								<li>Built based on Service Oriented computing model.
+								<li>Built Distributed services using REST and SOAP. 
+								<li>Project was developed using ASP.Net, C#, XML.
+								</ul>
+					      
+
+								</div>
+
+
+								<div class="itemStock">
+
+								<h2>Virtual Stock Market Simulation</h2>
+
+								
+					      		<ul>
+					      			
+								<li>Implemented event-driven based application that emits price 
+									quotes to all registered clients.
+								<li>Built using Java multi-threading libraries and event driven 
+									programming.
+								</ul>
+					      
+
+								</div>
+
+
+								<div class="itemCompiler">
+
+								<h2>Compiler Design</h2>
+
+								
+					      		<ul>
+					      			
+								<li>Developed a programming language Nihao, devised it’s grammar (
+									EBNF), Intermediate Code Generation (Java), Runtime (Java) and the Compiler using ANTLR (Lexical and Syntactic analysis).
+								<li>Developed a Stack Machine Model and Implemented Arithmetic and 
+									Relational Operators, Decision Control and Looping constructs.
+								</ul>
+					      
+
+								</div>
+
+						</div>
+
+
+						<div class="data">
+
+								<div class="itemCancer">
+
+								<h2>Cancer Prognosis and Prediction</h2>
+
+								
+					      		<ul>
+					      			
+								<li>Developed prediction algorithm using Standard Scalar, PCA,
+								    Logistic Regression, Sklearn Pipeline and k fold cross
+									validation, achieving the accuracy of 97%.
+								<li>Employed principles of Predictive Modelling and maximized accuracy using 	
+									libraries like scikit-learn, pandas, numpy and 
+									matplotlib.		
+								</ul>
+					      
+								</div>
+
+
+								<div class="itemReal">
+
+								<h2>Real Estate Price Estimator</h2>
+
+					      		<ul>
+					      			
+								<li>Deployed scatter matrix visualizing the pair-wise correlations, dimensionality reduction 		using PCA, feature selection using correlation matrix.
+								<li>Built a regression model to predict the housing for a given dataset using python machine 		learning libraries like pandas, scikit learn, etc.	
+								</ul>
+					      
+								</div>
+
+
+								<div class="itemTrauma">
+
+								<h2>Trauma Activation Algorithm</h2>
+
+					      		<ul>
+					      			
+								<li>Developed and Designed an evidence based Machine Learning Algorithm that 	
+									optimizes ED resources for level I pediatric trauma activation.
+								<li>Performed Segmentation Analysis to identify resource strata and employing big 
+									data tools to identify characteristics of patients.	
+								</ul>
+					      
+								</div>
+
+							</div>
+						
+						</div>	
+						
+
+					</div>
+
+				</div>
+
+			 </div>
+			</div>
+
+
+			</div> 	 
+
+
+
+			<!-- </div> -->
+		</div>
+	</div>
+
+<!-- This section is the CopyRight section -->
+
+	<div class="copyrightSection">
+		<div class="col-md-12 text-center">
+			<p>&copy; Copyright Pramod Kalidindi 2018</p>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<!-- Superslides Js file -->
+<script type="text/javascript" src="js/jquery.superslides.min.js"></script>
+
+<!-- Typed Js file -->
+<script type="text/javascript" src="js/typed.min.js"></script>
+
+<!-- Isotope Js file -->
+<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+
+<!-- Popper Js file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Js File -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<!-- Own(Script) Js file -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
