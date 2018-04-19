@@ -128,8 +128,9 @@
 
 #navigation{
 	padding: 20px 10px;
-	z-index: 50;
+	z-index: 100;
 	background-color: #cccccc;
+	width: 100%;
 }
 
 #navigation li{
@@ -150,3 +151,10 @@
 	position: fixed;
 	top : 0;
 }
+
+/*ul.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}*/

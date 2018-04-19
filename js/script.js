@@ -45,19 +45,38 @@ $("#filters a").click(function() {
 	return false;
 });
 
-
 const nav = $("#navigation");
 const navTop = nav.offset().top;
 
 $(window).on("scroll", stickyNavigation);
-
 function stickyNavigation() {
-	var body = $("body");
 
-	if($(window).scrollTop >= navTop) {
+	const body = $("body");
+
+	if($(window).scrollTop() > 700){
+		body.css("padding-top", nav.outerHeight() + "px");
 		body.addClass("fixedNav");
 	}
 	else{
+		body.css("padding-top", 0);
 		body.removeClass("fixedNav");
 	}
-	}
+}
+
+
+
+// const nav = $("#navigation");
+// const navTop = nav.offset().top;
+
+// $(window).on("scroll", stickyNavigation);
+
+// function stickyNavigation() {
+// 	var body = $("body");
+
+// 	if($(window).scrollTop >= navTop) {
+// 		body.addClass("sticky");
+// 		}
+// 	else{
+// 			body.removeClass("sticky");
+// 		}
+// 		}
